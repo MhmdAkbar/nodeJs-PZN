@@ -1,0 +1,29 @@
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+"id": 2,
+"todo" : "jalan di air"
+}
+
+###
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+"todo" : "jalan disitu"
+}
+
+###
+DELETE http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+"id": 0
+} 
+###
+
+GET http://localhost:3000

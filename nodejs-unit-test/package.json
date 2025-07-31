@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-unit-test",
+  "version": "1.0.0",
+  "description": "Belajar nodeJS Unit Test",
+  "license": "ISC",
+  "author": "Muhammad Akbar",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose" : true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "collectCoverage": true,
+    "coverageThreshold": {
+    "global": {
+      "statements": 50,
+      "branches": 50,
+      "functions": 50,
+      "lines": 50
+    }
+  }
+  }, 
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5"
+  }
+}

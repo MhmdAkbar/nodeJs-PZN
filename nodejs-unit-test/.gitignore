@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Env file (jangan pernah upload ini ke GitHub)
+.env
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Coverage results (dari testing)
+coverage/
+
+# Build output (jika pakai TypeScript atau bundler)
+dist/
+build/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2 log files (jika pakai PM2)
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: SQLite database
+*.sqlite
+*.sqlite3
+
+# Optional: log atau cache dari ESLint, Prettier, dll.
+.eslintcache
